@@ -16,7 +16,7 @@ command.
 
 ## Screenshots
 
-![](../screenshots/pong.png)
-![](../screenshots/space_invaders.png)
-![](../screenshots/breakout.png)
-![](../screenshots/tetris.png)
+![](./screenshots/pong.png)
+![](./screenshots/space_invaders.png)
+![](./screenshots/breakout.png)
+![](./screenshots/tetris.png)

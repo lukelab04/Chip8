@@ -90,17 +90,6 @@ impl Chip8 {
         key_map.insert(14, Key::E);
         key_map.insert(15, Key::F);
 
-        key_map.insert(0, Key::Numpad0);
-        key_map.insert(1, Key::Numpad1);
-        key_map.insert(2, Key::Numpad2);
-        key_map.insert(3, Key::Numpad3);
-        key_map.insert(4, Key::Numpad4);
-        key_map.insert(5, Key::Numpad5);
-        key_map.insert(6, Key::Numpad6);
-        key_map.insert(7, Key::Numpad7);
-        key_map.insert(8, Key::Numpad8);
-        key_map.insert(9, Key::Numpad9);
-
 
         let mut loc_map: HashMap<u8, u16> = HashMap::new();
 

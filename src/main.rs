@@ -204,8 +204,8 @@ fn main() {
     "#;
 
     //chip8.load_rom_data(assembler::assemble(&asm));
-    chip8.load_rom_from_file("C:/Users/lukes/Desktop/Code/Rust/chip8/roms/breakout.ch8");
-    chip8.set_cycles_per_second(200);
+    chip8.load_rom_from_file("./roms/tetris.ch8");
+    chip8.set_cycles_per_second(800);
 
     rgraphics::run(program, &mut event_loop, &mut |program| {
         chip8.clock(program);
